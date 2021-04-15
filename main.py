@@ -45,7 +45,7 @@ class Sitemap:
             self._create_index_sitemap_file(sitemap_files)
 
         else:
-            self._create_sitemap_file('sitemap.xml', self._urls)
+            self._create_sitemap_file('expamles/sitemap_pythonorg.xml', self._urls)
 
     def _create_index_sitemap_file(self, sitemap_file_names):
         with open('sitemap_index.xml', 'w') as f:
@@ -207,7 +207,7 @@ class Crawler(threading.Thread):
             # check is invalid format and get resp
             if not current_url_obj.path.endswith(self.invalid_formats):
                 try:
-                    response = urlopen(request, timeout=15)
+                    response = urlopen(request, timeout=10)
                 except Exception as e:
                     logging.debug(f"Unable to open {current_url_str}. {e}")
                     continue

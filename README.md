@@ -7,3 +7,4 @@ All tests were carried out in 30 threads with 170Mb/s inet connection on Ryzen 7
 |--------------------------|--------------------------|---------------------|------------------------|
 | https://www.google.com   | 0:20:56                  | 10797               | sitemap_google         |
 | https://crawler-test.com | 0:00:30                  | 412                 | sitemap_crawlertest    |
+| https://python.org       | 0:59:11                  | 25411               | sitemap_pythonorg      |

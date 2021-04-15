@@ -140,3 +140,6 @@ pip-selfcheck.json
 
 # mpeltonen/sbt-idea plugin
 .idea_modules/
+
+# project custom
+/expamles/sitemap_pythonorg.xml
