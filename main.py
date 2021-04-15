@@ -343,5 +343,6 @@ def main():
     mng = CrawlingManager('https://crawler-test.com/')
     mng.run()
 
+
 if __name__ == '__main__':
     main()
